@@ -1,13 +1,15 @@
-# require 'spec_helper'
+require 'spec_helper'
 
-# describe "Users" do
-
-#   subject { page }
-
-#   describe "signup page" do
-#     before { visit signup_path }
-
-#     it { should have_selector('h1',    text: 'Sign up') }
-#     it { should have_selector('title', text: full_title('Sign up')) }
+# Specs in this file have access to a helper object that includes
+# the StaticPagesHelper. For example:
+#
+# describe StaticPagesHelper do
+#   describe "string concat" do
+#     it "concats two strings with spaces" do
+#       helper.concat_strings("this","that").should == "this that"
+#     end
 #   end
 # end
+describe UsersHelper do
+  pending "add some examples to (or delete) #{__FILE__}"
+end
